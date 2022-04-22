@@ -11,8 +11,6 @@ function App() {
       {/* Nav */}
       <Nav />
       <Banner />
-      <h1>Building a Netflix clone with clever programmer</h1>
-
        <Row title="NETFLIX ORIGINALS" 
        fetchUrl = {requests.fetchNetflixOriginals}
        isLargeRow
